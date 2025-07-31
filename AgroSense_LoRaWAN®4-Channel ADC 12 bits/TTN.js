@@ -55,7 +55,7 @@ function Encoder(input) {
     var minutes = input.minutes;
 
     // Converting minutes to seconds
-    var seconds = minutes * 60;
+    var seconds = minutes * 10;
 
     // If the number of seconds is less than 300 seconds, set it to 300 seconds
     if (seconds < 300) {
